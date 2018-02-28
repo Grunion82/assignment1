@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitLab1", "GitLab1\GitLab1.vcxproj", "{C6A9684C-D343-4DB1-B31F-7C1A85F17AED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D} = {74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{C6A9684C-D343-4DB1-B31F-7C1A85F17AED}.Release|x64.Build.0 = Release|x64
 		{C6A9684C-D343-4DB1-B31F-7C1A85F17AED}.Release|x86.ActiveCfg = Release|Win32
 		{C6A9684C-D343-4DB1-B31F-7C1A85F17AED}.Release|x86.Build.0 = Release|Win32
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Debug|x64.ActiveCfg = Debug|x64
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Debug|x64.Build.0 = Debug|x64
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Debug|x86.Build.0 = Debug|Win32
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Release|x64.ActiveCfg = Release|x64
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Release|x64.Build.0 = Release|x64
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Release|x86.ActiveCfg = Release|Win32
+		{74C3A13F-CBE4-4237-AF8E-5C422C6F7B1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
